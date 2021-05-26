@@ -38,7 +38,7 @@ response = requests.get(url, headers=headers)
 print(json.dumps(response.json(), indent=2))
 
 # We can get detailed information on a device by its IP address
-url="https://sandboxdnac.cisco.com/dna/intent/api/v1/network-device/ip-address/10.10.22.70"
+url="https://sandboxdnac.cisco.com/dna/intent/api/v1/network-device/ip-address/10.10.22.73"
 response = requests.get(url, headers=headers)
 print(json.dumps(response.json(), indent=2))
 
